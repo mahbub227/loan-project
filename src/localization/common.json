@@ -55,8 +55,8 @@
     "YEAR": "year",
     "AMOUNT_PH": "e.g. 25000",
     "PERIOD_PH": "e.g. 5",
-    "AMOUNT_ERROR": "Enter amount in USD.",
-    "PERIOD_ERROR": "Enter period in years.",
+    "AMOUNT_ERROR": "Enter amount in USD(minimum 10000).",
+    "PERIOD_ERROR": "Enter period in years(minimum 1).",
     "PREV_BTN": "PREV",
     "NEXT_BTN": "NEXT"
   },
