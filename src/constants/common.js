@@ -6,3 +6,4 @@ export const occupationType = [
 ];
 
 export const loanRate = 9;
+export const minLoanAmount = 10000;

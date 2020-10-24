@@ -7,6 +7,7 @@ import Input from "../../components/Input";
 import Button from "../../components/Button";
 import ContentTitle from "../../components/ContentTitle";
 import { LoanInfoContext } from "../../contexts/loanInfoContext";
+import { minLoanAmount } from "../../constants/common";
 
 const LoanRequest = () => {
   const [amount, setAmount] = useState(null);
@@ -18,7 +19,7 @@ const LoanRequest = () => {
   let history = useHistory();
 
   useEffect(() => {
-    if (amount && period) setValidForm(true);
+    if (period>0 && amount>=minLoanAmount) setValidForm(true);
     else setValidForm(false);
   }, [amount, period]);
 
@@ -44,7 +45,7 @@ const LoanRequest = () => {
           value={amount}
           pattern="[0-9]{0,16}"
           callback={setAmount}
-          error={amount !== null && !amount ? LOAN_INFO.AMOUNT_ERROR : ""}
+          error={amount !== null && amount<minLoanAmount ? LOAN_INFO.AMOUNT_ERROR : ""}
           placeholder={LOAN_INFO.AMOUNT_PH}
           nameExt={`(${LOAN_INFO.CURRENCY})`}
         />
@@ -55,7 +56,7 @@ const LoanRequest = () => {
           value={period}
           pattern="[0-9]{0,2}"
           callback={setPeriod}
-          error={period !== null && !period ? LOAN_INFO.PERIOD_ERROR : ""}
+          error={period !== null && period<=0 ? LOAN_INFO.PERIOD_ERROR : ""}
           placeholder={LOAN_INFO.PERIOD_PH}
           nameExt={`(${LOAN_INFO.YEAR})`}
         />
