@@ -1,0 +1,13 @@
+@import "../../static/styles/mixins.scss";
+@import "../../static/styles/variables.scss";
+
+.business-info {
+  @include common-page-layout;
+  padding: 50px 20px 150px 20px;
+  .button-div {
+    position: fixed;
+    bottom: 60px;
+    width: calc(100% - 40px);
+    max-width: $maxWidth;
+  }
+}

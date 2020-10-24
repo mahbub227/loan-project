@@ -1,0 +1,12 @@
+@import "../../static/styles/mixins.scss";
+@import "../../static/styles/variables.scss";
+
+.personal-info {
+  @include common-page-layout;
+  .button-div {
+    position: fixed;
+    bottom: 60px;
+    width: calc(100% - 40px);
+    max-width: $maxWidth;
+  }
+}

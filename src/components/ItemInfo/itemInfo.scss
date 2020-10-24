@@ -1,0 +1,13 @@
+@import "../../static/styles/variables.scss";
+
+.item-info-block {
+  margin-top: 50px;
+  .title {
+    color: $lightGrey;
+  }
+  .value {
+    color: $tintBlue;
+    font-size: 25px;
+    margin-top: 10px;
+  }
+}

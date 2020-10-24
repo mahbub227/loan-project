@@ -1,0 +1,8 @@
+@import "../../static/styles/mixins.scss";
+
+.landing-page {
+  @include common-page-layout;
+  form {
+    margin-top: 100px;
+  }
+}

@@ -1,0 +1,14 @@
+@import "../../static/styles/variables.scss";
+.header {
+  img {
+    display: inline;
+    vertical-align: bottom;
+  }
+  span {
+    text-align: center;
+    margin-left: 15px;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba($black, 0.5);
+  }
+}

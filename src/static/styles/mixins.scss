@@ -1,0 +1,8 @@
+@import "./variables.scss";
+
+@mixin common-page-layout {
+  width: 100%;
+  max-width: $maxWidth;
+  margin: auto;
+  padding: 50px 20px;
+}

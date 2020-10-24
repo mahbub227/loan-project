@@ -1,0 +1,42 @@
+@import "../../static/styles/variables.scss";
+
+.custom-select {
+  position: relative;
+  margin-top: 30px;
+  label {
+    width: 100%;
+    display: inline-block;
+    color: $blue;
+  }
+  select {
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    border: 2px solid rgba($black, 0.15);
+    border-radius: 5px;
+    padding: 0 20px;
+    position: relative;
+    background: $white;
+    outline: none !important;
+    option {
+      color: $black;
+    }
+    &:focus {
+      border: 2px solid $lightBlue;
+    }
+    &.unset {
+      color: rgba($black, 0.2);
+    }
+  }
+
+  &.error {
+    p {
+      color: $danger;
+      margin-top: 5px;
+      font-size: 14px;
+    }
+    input {
+      border: 2px solid $danger;
+    }
+  }
+}

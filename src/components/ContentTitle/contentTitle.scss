@@ -1,0 +1,22 @@
+@import "../../static/styles/variables.scss";
+
+.content-title {
+  letter-spacing: 2px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 70px;
+  position: relative;
+  text-indent: 15px;
+  margin-bottom: 50px;
+  &:before {
+    content: "";
+    color: transparent;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background: $lightBlue;
+    position: absolute;
+    top: calc(50% - 4px);
+    left: 0;
+  }
+}

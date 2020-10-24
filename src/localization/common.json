@@ -1,0 +1,79 @@
+{
+  "LP": {
+    "START_BUTTON": "START",
+    "CLIENT_ID_INPUT_TITLE": "Client ID",
+    "CLIENT_ID_PH": "XXXXXXXX",
+    "CLIENT_ID_ERROR": "Invalid Client ID!"
+  },
+  "PERSONAL_INFO": {
+    "TITLE": "PERSONAL INFO",
+    "NAME": "Name",
+    "PHONE": "Phone",
+    "EMAIL": "Email",
+    "OCCUPATION": "Occupation",
+    "NAME_PH": "e.g. John Doe",
+    "PHONE_PH": "e.g. 12345698563",
+    "EMAIL_PH": "e.g. johndoe@jd.com",
+    "OCCUPATION_PH": "select an occupation",
+    "NAME_ERROR": "Name must be minimum 6 characters.",
+    "PHONE_ERROR": "Please enter a valid phone.",
+    "EMAIL_ERROR": "Please enter a valid email.",
+    "OCCUPATION_ERROR": "Please select an occupation.",
+    "PREV_BTN": "PREV",
+    "NEXT_BTN": "NEXT"
+  },
+  "BUSINESS_INFO": {
+    "EMPLOYEE_TITLE": "JOB HOLDER",
+    "BUSINESS_TITLE": "BUSINESS",
+    "COMPANY": "Company Name",
+    "EXPERIENCE": "Years of Experience",
+    "SALARY": "Monthly Salary",
+    "CURRENCY": "$USD",
+    "BUSINESS": "Business Name",
+    "EMPLOYEE": "Total Employee",
+    "REVENUE": "Yearly Revenue",
+    "COMPANY_PH": "e.g. Rocker Consultancy",
+    "EXPERIENCE_PH": "e.g. 4",
+    "SALARY_PH": "e.g. 2200",
+    "BUSINESS_PH": "e.g. John Agro",
+    "EMPLOYEE_PH": "e.g. 2000",
+    "REVENUE_PH": "e.g. 5000000",
+    "COMPANY_ERROR": "Please enter a company name.",
+    "EXPERIENCE_ERROR": "Please enter experience in number of years.",
+    "SALARY_ERROR": "Please enter salary in USD.",
+    "BUSINESS_ERROR": "Please enter a business name.",
+    "EMPLOYEE_ERROR": "Please enter number of employees.",
+    "REVENUE_ERROR": "Please enter revenue in USD.",
+    "PREV_BTN": "PREV",
+    "NEXT_BTN": "NEXT"
+  },
+  "LOAN_INFO": {
+    "TITLE": "LOAN APPLYING FOR",
+    "AMOUNT": "Amount",
+    "PERIOD": "Period",
+    "CURRENCY": "$USD",
+    "YEAR": "year",
+    "AMOUNT_PH": "e.g. 25000",
+    "PERIOD_PH": "e.g. 5",
+    "AMOUNT_ERROR": "Enter amount in USD.",
+    "PERIOD_ERROR": "Enter period in years.",
+    "PREV_BTN": "PREV",
+    "NEXT_BTN": "NEXT"
+  },
+  "RESULT": {
+    "CONGRATS": "CONGRATS !",
+    "ELIGIBLE": "You are eligible to get the following loan amount:",
+    "SORRY": "SORRY !",
+    "NOT_ELIGIBLE": "You are not eligible to get loan.",
+    "LOAN_PERIOD": "LOAN PERIOD",
+    "EMI": "EMI",
+    "CURRENCY": "$(USD)",
+    "INTEREST_RATE": "INTEREST RATE",
+    "PREV_BTN": "PREV",
+    "NEXT_BTN": "REQUEST"
+  },
+  "CONFIRM": {
+    "REQUEST": "REQUEST RECIEVED",
+    "CHECK_EMAIL": "Please Check Your Email For Further Instruction."
+  }
+}

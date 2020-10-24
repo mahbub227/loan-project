@@ -1,0 +1,51 @@
+@import "../../static/styles/mixins.scss";
+@import "../../static/styles/variables.scss";
+
+.result-page {
+  @include common-page-layout;
+  padding: 50px 20px 150px 20px;
+  .approved {
+    max-width: $resultContentMaxWidth;
+    margin: auto;
+    text-align: center;
+    .congrats {
+      font-size: 30px;
+      font-weight: bold;
+      letter-spacing: 4px;
+      margin-top: 70px;
+      color: $lightBlue;
+    }
+    .eligibility {
+      margin-top: 30px;
+    }
+    .loan-amount {
+      font-size: 45px;
+      font-weight: bold;
+      letter-spacing: 4px;
+      margin-top: 50px;
+      color: $lightGreen;
+      background: rgba($lightGrey, 0.08);
+    }
+  }
+  .disapproved {
+    max-width: $resultContentMaxWidth;
+    margin: auto;
+    text-align: center;
+    .sorry {
+      font-size: 30px;
+      font-weight: bold;
+      letter-spacing: 4px;
+      margin-top: 70px;
+      color: $lightRed;
+    }
+    .eligibility {
+      margin-top: 30px;
+    }
+  }
+  .button-div {
+    position: fixed;
+    bottom: 60px;
+    width: calc(100% - 40px);
+    max-width: $maxWidth;
+  }
+}
