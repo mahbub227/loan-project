@@ -9,7 +9,7 @@ const ClientIdContextProvider = (props) => {
   const history = useHistory();
 
   useEffect(() => {
-    // if (!clientId) history.push("/");
+    if (!clientId) history.push("/");
   }, [clientId, history]);
 
   return (
